@@ -1,0 +1,30 @@
+{
+  "name": "angularjs-eisenbergeffect-index",
+  "version": "0.0.1",
+  "authors": [
+    "Jairo Valderrama <jairovg@users.noreply.github.com>"
+  ],
+  "description": "Header index made with angularjs and based in 'The Eisenberg Effect' blog",
+  "keywords": [
+    "header",
+    "index",
+    "angularjs",
+    "directives",
+    "directive"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/jairovg/angularjs-eisenbergeffect-index",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.4",
+    "angular-animate": "~1.3.4",
+    "underscore": "~1.7.0",
+    "jquery": "~2.1.1"
+  }
+}

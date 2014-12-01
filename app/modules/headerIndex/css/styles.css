@@ -1,0 +1,44 @@
+body {
+  margin-top: 80px;
+}
+.index {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 20px 0;
+  background: #222;
+  color: #ddd;
+  opacity: 0;
+  transition: 0.3s linear opacity;
+}
+.index.active {
+  opacity: 1;
+}
+.index h1, .index h2 {
+  display: inline;
+  margin: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.index h1 {
+  float: right;
+  max-width: 30%;
+  font: 700 18px 'Open Sans',Serif;
+}
+.index h2 {
+  float: left;
+  max-width: 57%;
+  font: 600 18px 'Open Sans',Serif;
+  opacity: 0;
+  transition: 0.3s linear opacity;
+}
+.index h2.active {
+  opacity: 1;
+}
+.index>.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
