@@ -1,1 +1,4 @@
-angular.module('myApp', ['headerIndex']);
+(function () {
+  'use strict';
+  angular.module('myApp', ['headerIndex']);
+})();
